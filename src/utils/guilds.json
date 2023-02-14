@@ -1,0 +1,98 @@
+{
+    "guilds": [
+        {
+            "id": "1072994918412337242",
+            "channels": [
+                {
+                    "description": "Jeux de société",
+                    "emojiName": "🎲",
+                    "name": "jds",
+                    "id": "1074361933047803904"
+                },
+                {
+                    "description": "Jeux de cartes",
+                    "emojiName": "🃏",
+                    "name": "jdc",
+                    "id": "1074361996901883984"
+                },
+                {
+                    "description": "Jeux de rôles",
+                    "emojiName": "📜",
+                    "name": "jdr",
+                    "id": "1074361966606422087"
+                },
+                {
+                    "description": "Jeux de figurines",
+                    "emojiName": "🎨",
+                    "name": "jdf",
+                    "id": "1074362022218702888"
+                },
+                {
+                    "description": "Jeux vidéo",
+                    "emojiName": "🎮",
+                    "name": "jv",
+                    "id": "1074362045882970222"
+                },
+                {
+                    "description": "Jeux traditionnels",
+                    "emojiName": "♟",
+                    "name": "chess",
+                    "id": "1074362065986265218"
+                },
+                {
+                    "description": "Jeux de rôles grandeur nature",
+                    "emojiName": "🔑",
+                    "name": "gn",
+                    "id": "1074362083010945104"
+                }
+            ]
+        },
+        {
+            "id": "1047083525414866977",
+            "channels": [
+                {
+                    "description": "Jeux de société",
+                    "emojiName": "🎲",
+                    "name": "jds",
+                    "id": "1047580477399257109"
+                },
+                {
+                    "description": "Jeux de cartes",
+                    "emojiName": "🃏",
+                    "name": "jdc",
+                    "id": "1047581783207706655"
+                },
+                {
+                    "description": "Jeux de figurines",
+                    "emojiName": "🎨",
+                    "name": "jdf",
+                    "id": "1047581464767758336"
+                },
+                {
+                    "description": "Jeux vidéo",
+                    "emojiName": "🎮",
+                    "name": "jv",
+                    "id": "1047581949155352666"
+                },
+                {
+                    "description": "Jeux de rôles",
+                    "emojiName": "📜",
+                    "name": "jdr",
+                    "id": "1047811267517235211"
+                },
+                {
+                    "description": "Jeux traditionnels",
+                    "emojiName": "♟",
+                    "name": "chess",
+                    "id": "1050411374079127553"
+                },
+                {
+                    "description": "Jeux de rôles grandeur nature",
+                    "emojiName": "🔑",
+                    "name": "gn",
+                    "id": "1063487020766343238"
+                }
+            ]
+        }
+    ]
+}

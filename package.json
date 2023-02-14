@@ -1,23 +1,30 @@
 {
-  "name": "discordjs-v14-template-ts",
+  "name": "tlr-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot discord permettant de réagir aux événements de la TLR",
   "main": "index.js",
   "scripts": {
-    "start": "cls && node build/index.js"
+    "build": "tsc --project tsconfig.json",
+    "start": "npm run build && node --enable-source-maps build/index.js"
   },
   "keywords": [],
-  "author": "MericcaN41",
+  "author": "Grom#9280",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/rest": "^1.1.0",
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/rest": "^1.5.0",
     "@types/node": "^18.7.14",
     "chalk": "^4.1.2",
-    "discord.js": "14.3.0",
+    "discord-api-types": "^0.37.33",
+    "discord.js": "13.4",
     "dotenv": "^16.0.2",
-    "mongoose": "^6.5.4"
+    "express": "^4.18.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
     "typescript": "^4.8.2"
+  },
+  "engines": {
+    "npm": ">=8.3.0"
   }
 }

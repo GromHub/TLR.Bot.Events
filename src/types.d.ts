@@ -39,8 +39,7 @@ declare global {
             TOKEN: string,
             CLIENT_ID: string,
             PREFIX: string,
-            MONGO_URI: string,
-            MONGO_DATABASE_NAME: string
+            APPLICATIONINSIGHTS_CONNECTION_STRING: string,
         }
     }
 }
