@@ -2,13 +2,13 @@
 
 ## Features
 
-* 🟦 Typescript
-* 🔥 Slash commands (supports auto complete!)
-* ✉️ Message commands
-* 🕛 Cooldowns
-* 🏴 Detailed Permissions
-* 💪 Event & Command handlers
-* 🍃 MongoDB Support
+- 🟦 Typescript
+- 🔥 Slash commands (supports auto complete!)
+- ✉️ Message commands
+- 🕛 Cooldowns
+- 🏴 Detailed Permissions
+- 💪 Event & Command handlers
+- 🍃 MongoDB Support
 
 ## Installation
 

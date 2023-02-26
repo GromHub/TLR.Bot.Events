@@ -1,11 +1,11 @@
-import { ChannelType, GuildScheduledEvent } from 'discord.js';
+import { ChannelType, GuildScheduledEvent, User } from 'discord.js';
 import { color, searchEventMessage } from '../functions';
 import { BotEvent } from '../types';
 
 const event: BotEvent = {
-  name: 'guildScheduledEventDelete',
-  execute: async (event: GuildScheduledEvent) => {
-    console.log(color('text', `📅 Event deleted ${color('variable', JSON.stringify(event))}`));
+  name: 'guildScheduledEventUserAdd',
+  execute: async (event: GuildScheduledEvent, user: User) => {
+    console.log(color('text', `🙍‍♂️📅 A member subscribes to an event ${color('variable', JSON.stringify(event))}`));
 
     const message = await searchEventMessage(
       event.guild!.channels.cache.filter(c => c.type == ChannelType.GuildAnnouncement).map(c => c.id),
@@ -18,13 +18,9 @@ const event: BotEvent = {
       return;
     }
 
-    await message.delete();
-    await message.thread?.delete();
-    console.log(color('text', `🚮 Event message and thread deleted ${color('variable', JSON.stringify(message))}`));
+    message?.thread?.members.add(user);
 
     console.log(color('text', '👌 Done !'));
-
-    event;
   },
 };
 
