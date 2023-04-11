@@ -116,6 +116,9 @@ const event: BotEvent = {
     const thread = await message.startThread({ name: event.name, reason: `Création d'un thread pour l'événement ${event.name}` });
     await thread.send('Voici le fil de discussion pour l\'événement !');
     console.log(color('text', `🧶 Thread créé ${color('variable', JSON.stringify(thread))}`));
+
+    await message.crosspost();
+    console.log(color('text', `🏣 Message publié ${color('variable', JSON.stringify(message))}`));
   },
 };
 
